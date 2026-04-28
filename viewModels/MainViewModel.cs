@@ -8,11 +8,11 @@ using System.Windows;
 
 namespace lab9.viewModels
 {
-    /// ViewModel — связывает View (XAML) и Model (в нашем случае контакт)
+    /// ViewModel — связывает XAML и Contacts
     /// Содержит бизнес-логику, команды и состояние UI
     public class MainViewModel : INotifyPropertyChanged
     {
-        /// Коллекция контактов.
+        /// Коллекция контактов
         /// ObservableCollection автоматически обновляет UI при изменениях
         public ObservableCollection<Contact> Contacts { get; set; }
 
